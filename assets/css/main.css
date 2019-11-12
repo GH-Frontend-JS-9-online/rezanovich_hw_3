@@ -1,0 +1,338 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf") format("ttf"),
+    url("../fonts/Montserrat-Bold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../fonts/SourceSansPro-Regular.ttf") format("ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 75%;
+}
+
+img {
+    display: block;
+}
+
+h1, h2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    justify-content: space-between;
+}
+
+.menu__item {
+    margin-right: 45px;
+}
+
+.menu__item, .buy {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu__item a {
+    color: #635c73;
+    text-decoration: none;
+}
+
+.buy {
+    display: block;
+    background: #8d81ac;
+    border-radius: 35px;
+    padding: 15px 0;
+    width: 145px;
+    border: 0;
+}
+
+.buy a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-header {
+    padding: 30px 0;
+}
+
+.offer {
+    background: url("../img/first.png") no-repeat center top/cover;
+}
+
+.title {
+    text-align: center;
+    padding: 110px 0 540px 0;
+}
+
+.title h1 {
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 82px;
+    font-weight: bold;
+}
+
+.header-text {
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    color: #8d81ac;
+}
+
+.version {
+    color: #848e97;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.revol {
+    color: #635c73;
+    font-size: 54px;
+    text-align: center;
+    margin-top: 130px;
+    text-transform: uppercase;
+}
+
+.revol-text {
+    color: #5b5b5b;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.github-logo {
+    margin: 40px 0 70px 370px;
+}
+
+.code {
+    background-color: #f4f4f4;
+}
+
+h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.tool p {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    color: #848e97;
+}
+
+.ul li img {
+    display: flex;
+
+
+}
+
+.tool img {
+    object-fit: contain;
+    list-style: none;
+    padding-bottom: 75px;
+}
+
+.tool h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    color: #323232;
+    font-weight: bold;
+}
+
+.tool {
+    display: flex;
+
+}
+
+.tool div {
+
+}
+
+
+
+#flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.code {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.left {
+    display: flex;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.right {
+    display: flex;
+    width: 50%;
+    margin-top: 80px;
+    padding: 0;
+}
+
+.code-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #8d81ac;
+    margin: 0;
+    padding: 0;
+}
+
+.code-img {
+
+}
+
+.social {
+    background: #fff;
+}
+
+.social .social-container {
+    padding: 90px 0;
+}
+
+.social .social-container .recall {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.social .social-container .recall .recall-text {
+    margin-left: 20px;
+}
+
+.social .social-container .recall .recall-text .recall-title {
+    color: #635c73;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.social .social-container .recall .recall-text .recall-subtext {
+    color: #8d81ac;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.social .social-container .info {
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 1px solid rgba(132, 97, 110, 0.1);
+}
+
+.social .social-container .info .info-text {
+    color: #333333;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.social .social-container .info .info-text a {
+    color: #8d81ac;
+}
+
+.social .social-container .info .info-subtext {
+    color: #848e97;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.social .social-container .social-buttons {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.button-github {
+    color: #f3f3f3;
+}
+
+.social .social-container .social-buttons .social-button .button {
+    display: inline-block;
+    padding: 15px 40px;
+    color: #000;
+    border-radius: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 32px;
+    text-decoration: none;
+    width: 200px;
+    margin: 0 30px;
+}
+
+.social .social-container .social-buttons .social-button .button .icon {
+    padding-right: 10px;
+}
+
+.social .social-container .social-buttons .social-button .github {
+    background: #f3f3f3;
+    color: #000000;
+}
+
+.social .social-container .social-buttons .social-button .twitter {
+    background: #4fa3c6;
+    color: #ffffff;
+}
+
+.social .social-container .social-buttons .social-button .facebook {
+    background: #4e5184;
+    color: #ffffff;
+}
+
+.social .social-container .social-buttons .after-btn-text {
+    color: #848e97;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 5px;
+}
